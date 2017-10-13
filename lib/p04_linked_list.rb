@@ -20,6 +20,7 @@ end
 
 class LinkedList
   def initialize
+    @nodes = []
   end
 
   def [](i)

@@ -12,7 +12,7 @@ class Array
     self.each_with_index do |el, i|
       result += (el.hash * i.hash)
     end
-    result
+    result.hash
   end
 end
 
